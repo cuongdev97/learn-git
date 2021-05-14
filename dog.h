@@ -1,3 +1,3 @@
 class Dog {
-
+    void eat();
 };
