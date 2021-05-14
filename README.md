@@ -3,3 +3,4 @@
 3. git add
 4. git commit
 5. git log / git log --oneline
+6. git show <id commit>
