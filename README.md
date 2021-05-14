@@ -38,4 +38,15 @@ directory: Khi file chưa được add mà ở trạng thái modified đỏ thì
     
 17. git branch -D <branch> : Xóa branch
 
+18. git reset --soft <id_commit>
+    id_commit là id lần commit phía trước của HEAD
+    => HEAD trỏ về lần commit trước và các thay đổi vẫn được giữ ở staging area (modifed xanh chờ để commit)
+
+19. git reset --mixed <id_commit>
+    => HEAD trỏ về lần commit trước và các thay đổi vẫn được giữ nhưng bị bỏ ra khỏi staging area (modifed đỏ chờ để add)
+
+20. git reset --hard <id_commit>
+    => Xóa bỏ tất cả các commit phía trên của commit đó
+    => dùng cẩn thận
+
 
