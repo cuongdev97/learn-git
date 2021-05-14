@@ -35,4 +35,7 @@ directory: Khi file chưa được add mà ở trạng thái modified đỏ thì
     VD: kéo thay đổi từ branch feature sang branch main
         + Bước 1: git checkout main (đảm bảo đang ở branch cần nhận thay đổi)
         + Bước 2: git merge feature (gộp thay đổ từ feature vào main)
+    
+17. git branch -D <branch> : Xóa branch
+
 
