@@ -11,3 +11,7 @@ directory: Khi file chưa được add mà ở trạng thái modified đỏ thì
 7. git diff 
     Dùng để xem thay đổi của các file khi vừa sửa và chưa có add vào staged
 
+8. working directory
+9. staging area
+10. git repository
+
