@@ -7,3 +7,7 @@ directory: Khi file chưa được add mà ở trạng thái modified đỏ thì
 4. git commit
 5. git log / git log --oneline
 6. git show <id commit>
+    Nếu có nhiều thay đổi thì phải bấm phím xuống nhiều lần mới hiện ra hết. Sau đó bấm q để quit
+7. git diff 
+    Dùng để xem thay đổi của các file khi vừa sửa và chưa có add vào staged
+
