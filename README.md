@@ -21,4 +21,18 @@ directory: Khi file chưa được add mà ở trạng thái modified đỏ thì
 12. git reset
     git reset HEAD <file>: tương tự 3.1
 
+13. git checkout -b <branch>
+    tạo 1 branch mới và checkout vào đó
+
+14. git branch <branch>
+    tạo 1 branch mới
+
+15. git checkout <branch>
+    checkout vào branch đó
+
+16. git merge
+    kéo thay đổi từ branch này vào branch khác
+    VD: kéo thay đổi từ branch feature sang branch main
+        + Bước 1: git checkout main (đảm bảo đang ở branch cần nhận thay đổi)
+        + Bước 2: git merge feature (gộp thay đổ từ feature vào main)
 
