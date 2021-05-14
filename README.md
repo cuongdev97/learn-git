@@ -15,3 +15,10 @@ directory: Khi file chưa được add mà ở trạng thái modified đỏ thì
 9. staging area
 10. git repository
 
+11. git checkout    
+    git checkout -- <file>: tương tự git restore ở 3.2
+
+12. git reset
+    git reset HEAD <file>: tương tự 3.1
+
+
